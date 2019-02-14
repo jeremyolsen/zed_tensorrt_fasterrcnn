@@ -39,13 +39,6 @@ using namespace sl;
 cv::Mat slMat2cvMat(Mat& input);
 void printHelp();
 
-// using namespace nvinfer1;
-// using namespace nvcaffeparser1;
-// using namespace plugin;
-
-// using namespace cv;
-// using namespace cv::dnn;
-
 //for opencv cmd line param tool
 const char* params
     = "{ help           | false | print usage         }"
